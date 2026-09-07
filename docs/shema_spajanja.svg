@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1460" height="1170" viewBox="0 0 1460 1170">
+<rect width="1460" height="1170" fill="#ffffff"/>
+<text x="730" y="44" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="26" fill="#0f172a" font-weight="700" text-anchor="middle">Autić na daljinsko upravljanje – shema spajanja</text>
+<text x="730" y="70" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="14.5" fill="#475569" font-weight="400" text-anchor="middle">ESP32 uPesy WROOM DevKit  •  2× 28BYJ-48 + ULN2003  •  HC-SR04P</text>
+<text x="730" y="90" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="13.5" fill="#15803d" font-weight="600" text-anchor="middle">jedno napajanje: USB power bank → ESP32 → VIN hrani motore, 3V3 senzor</text>
+<path d="M150 400 V1060" fill="none" stroke="#dc2626" stroke-width="4"/>
+<path d="M100 475 V1110" fill="none" stroke="#111827" stroke-width="4"/>
+<text x="150" y="388" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="13" fill="#dc2626" font-weight="700" text-anchor="middle">+5 V</text>
+<text x="100" y="463" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="13" fill="#111827" font-weight="700" text-anchor="middle">GND</text>
+<rect x="590" y="280" width="320" height="660" rx="10" fill="#e4edfb" stroke="#1d4ed8" stroke-width="2"/>
+<path d="M590 318 H910" stroke="#1d4ed8" stroke-width="1.2" opacity=".45"/>
+<text x="750" y="306" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="16" fill="#0f172a" font-weight="700" text-anchor="middle">ESP32 uPesy WROOM DevKit</text>
+<text x="750" y="338" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="12.5" fill="#475569" font-weight="400" text-anchor="middle">ESP32-WROOM-32 · CH340C</text>
+<rect x="585" y="395" width="10" height="10" rx="2" fill="#2563eb"/>
+<text x="602" y="404.5" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12.5" fill="#0f172a" font-weight="600" text-anchor="start">GPIO 32</text>
+<rect x="585" y="420" width="10" height="10" rx="2" fill="#2563eb"/>
+<text x="602" y="429.5" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12.5" fill="#0f172a" font-weight="600" text-anchor="start">GPIO 33</text>
+<rect x="585" y="445" width="10" height="10" rx="2" fill="#2563eb"/>
+<text x="602" y="454.5" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12.5" fill="#0f172a" font-weight="600" text-anchor="start">GPIO 25</text>
+<rect x="585" y="470" width="10" height="10" rx="2" fill="#2563eb"/>
+<text x="602" y="479.5" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12.5" fill="#0f172a" font-weight="600" text-anchor="start">GPIO 26</text>
+<rect x="585" y="795" width="10" height="10" rx="2" fill="#2563eb"/>
+<text x="602" y="804.5" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12.5" fill="#0f172a" font-weight="600" text-anchor="start">GPIO 27</text>
+<rect x="585" y="820" width="10" height="10" rx="2" fill="#2563eb"/>
+<text x="602" y="829.5" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12.5" fill="#0f172a" font-weight="600" text-anchor="start">GPIO 14</text>
+<rect x="585" y="845" width="10" height="10" rx="2" fill="#2563eb"/>
+<text x="602" y="854.5" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12.5" fill="#0f172a" font-weight="600" text-anchor="start">GPIO 12</text>
+<rect x="585" y="870" width="10" height="10" rx="2" fill="#2563eb"/>
+<text x="602" y="879.5" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12.5" fill="#0f172a" font-weight="600" text-anchor="start">GPIO 13</text>
+<rect x="585" y="650" width="10" height="10" rx="2" fill="#dc2626"/>
+<text x="602" y="659.5" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12.5" fill="#0f172a" font-weight="600" text-anchor="start">VIN (5 V)</text>
+<rect x="585" y="680" width="10" height="10" rx="2" fill="#111827"/>
+<text x="602" y="689.5" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12.5" fill="#0f172a" font-weight="600" text-anchor="start">GND</text>
+<text x="760" y="618" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="12" fill="#dc2626" font-weight="600" text-anchor="middle">VIN je izlaz: nosi 5 V s USB-a dalje na motore</text>
+<rect x="905" y="360" width="10" height="10" rx="2" fill="#047857"/>
+<text x="898" y="369.5" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12.5" fill="#0f172a" font-weight="600" text-anchor="end">GPIO 17</text>
+<rect x="905" y="390" width="10" height="10" rx="2" fill="#047857"/>
+<text x="898" y="399.5" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12.5" fill="#0f172a" font-weight="600" text-anchor="end">GPIO 16</text>
+<rect x="905" y="500" width="10" height="10" rx="2" fill="#0e7490"/>
+<text x="898" y="509.5" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12.5" fill="#0f172a" font-weight="600" text-anchor="end">3V3</text>
+<rect x="905" y="530" width="10" height="10" rx="2" fill="#111827"/>
+<text x="898" y="539.5" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12.5" fill="#0f172a" font-weight="600" text-anchor="end">GND</text>
+<rect x="725" y="940" width="70" height="22" rx="4" fill="#94a3b8" stroke="#334155" stroke-width="1.8"/>
+<text x="760" y="956" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="11.5" fill="#ffffff" font-weight="700" text-anchor="middle">USB</text>
+<rect x="250" y="310" width="270" height="190" rx="10" fill="#f1f5f9" stroke="#334155" stroke-width="2"/>
+<path d="M250 348 H520" stroke="#334155" stroke-width="1.2" opacity=".45"/>
+<text x="385" y="336" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="16" fill="#0f172a" font-weight="700" text-anchor="middle">ULN2003 (LIJEVI)</text>
+<text x="385" y="368" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="12.5" fill="#475569" font-weight="400" text-anchor="middle">Darlington driver · lijevi pogon</text>
+<rect x="300" y="530" width="200" height="95" rx="10" fill="#f1f5f9" stroke="#334155" stroke-width="2"/>
+<path d="M300 568 H500" stroke="#334155" stroke-width="1.2" opacity=".45"/>
+<text x="400" y="556" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="16" fill="#0f172a" font-weight="700" text-anchor="middle">28BYJ-48</text>
+<text x="400" y="588" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="12.5" fill="#475569" font-weight="400" text-anchor="middle">lijevi kotač</text>
+<rect x="250" y="710" width="270" height="190" rx="10" fill="#f1f5f9" stroke="#334155" stroke-width="2"/>
+<path d="M250 748 H520" stroke="#334155" stroke-width="1.2" opacity=".45"/>
+<text x="385" y="736" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="16" fill="#0f172a" font-weight="700" text-anchor="middle">ULN2003 (DESNI)</text>
+<text x="385" y="768" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="12.5" fill="#475569" font-weight="400" text-anchor="middle">Darlington driver · desni pogon</text>
+<rect x="300" y="930" width="200" height="95" rx="10" fill="#f1f5f9" stroke="#334155" stroke-width="2"/>
+<path d="M300 968 H500" stroke="#334155" stroke-width="1.2" opacity=".45"/>
+<text x="400" y="956" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="16" fill="#0f172a" font-weight="700" text-anchor="middle">28BYJ-48</text>
+<text x="400" y="988" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="12.5" fill="#475569" font-weight="400" text-anchor="middle">desni kotač</text>
+<rect x="515" y="395" width="10" height="10" rx="2" fill="#2563eb"/>
+<text x="508" y="404.5" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#0f172a" font-weight="600" text-anchor="end">IN1</text>
+<rect x="515" y="795" width="10" height="10" rx="2" fill="#2563eb"/>
+<text x="508" y="804.5" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#0f172a" font-weight="600" text-anchor="end">IN1</text>
+<rect x="515" y="420" width="10" height="10" rx="2" fill="#2563eb"/>
+<text x="508" y="429.5" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#0f172a" font-weight="600" text-anchor="end">IN2</text>
+<rect x="515" y="820" width="10" height="10" rx="2" fill="#2563eb"/>
+<text x="508" y="829.5" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#0f172a" font-weight="600" text-anchor="end">IN2</text>
+<rect x="515" y="445" width="10" height="10" rx="2" fill="#2563eb"/>
+<text x="508" y="454.5" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#0f172a" font-weight="600" text-anchor="end">IN3</text>
+<rect x="515" y="845" width="10" height="10" rx="2" fill="#2563eb"/>
+<text x="508" y="854.5" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#0f172a" font-weight="600" text-anchor="end">IN3</text>
+<rect x="515" y="470" width="10" height="10" rx="2" fill="#2563eb"/>
+<text x="508" y="479.5" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#0f172a" font-weight="600" text-anchor="end">IN4</text>
+<rect x="515" y="870" width="10" height="10" rx="2" fill="#2563eb"/>
+<text x="508" y="879.5" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#0f172a" font-weight="600" text-anchor="end">IN4</text>
+<rect x="245" y="395" width="10" height="10" rx="2" fill="#dc2626"/>
+<text x="262" y="404.5" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#0f172a" font-weight="600" text-anchor="start">VCC</text>
+<rect x="245" y="470" width="10" height="10" rx="2" fill="#111827"/>
+<text x="262" y="479.5" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#0f172a" font-weight="600" text-anchor="start">GND</text>
+<rect x="245" y="795" width="10" height="10" rx="2" fill="#dc2626"/>
+<text x="262" y="804.5" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#0f172a" font-weight="600" text-anchor="start">VCC</text>
+<rect x="245" y="870" width="10" height="10" rx="2" fill="#111827"/>
+<text x="262" y="879.5" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#0f172a" font-weight="600" text-anchor="start">GND</text>
+<path d="M 385 500 L 385 530" fill="none" stroke="#2563eb" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 385 900 L 385 930" fill="none" stroke="#2563eb" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 520 400 L 590 400" fill="none" stroke="#2563eb" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 520 425 L 590 425" fill="none" stroke="#2563eb" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 520 450 L 590 450" fill="none" stroke="#2563eb" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 520 475 L 590 475" fill="none" stroke="#2563eb" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 520 800 L 590 800" fill="none" stroke="#2563eb" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 520 825 L 590 825" fill="none" stroke="#2563eb" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 520 850 L 590 850" fill="none" stroke="#2563eb" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 520 875 L 590 875" fill="none" stroke="#2563eb" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 590 655 L 150 655" fill="none" stroke="#dc2626" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="150" cy="655" r="5" fill="#dc2626"/>
+<path d="M 150 400 L 250 400" fill="none" stroke="#dc2626" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="150" cy="400" r="5" fill="#dc2626"/>
+<path d="M 150 800 L 250 800" fill="none" stroke="#dc2626" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="150" cy="800" r="5" fill="#dc2626"/>
+<path d="M 590 685 L 159 685 A 9 9 0 0 0 141 685 L 100 685" fill="none" stroke="#111827" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="100" cy="685" r="5" fill="#111827"/>
+<path d="M 250 475 L 159 475 A 9 9 0 0 0 141 475 L 100 475" fill="none" stroke="#111827" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="100" cy="475" r="5" fill="#111827"/>
+<path d="M 250 875 L 159 875 A 9 9 0 0 0 141 875 L 100 875" fill="none" stroke="#111827" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="100" cy="875" r="5" fill="#111827"/>
+<path d="M 150 1060 L 137 1060" fill="none" stroke="#dc2626" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M137 1042 V1078" stroke="#dc2626" stroke-width="4"/>
+<path d="M121 1042 V1078" stroke="#111827" stroke-width="4"/>
+<path d="M 121 1060 L 100 1060" fill="none" stroke="#111827" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="150" cy="1060" r="5" fill="#dc2626"/>
+<circle cx="100" cy="1060" r="5" fill="#111827"/>
+<text x="175" y="1050" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="12.5" fill="#0f172a" font-weight="700" text-anchor="start">1000 µF elektrolit</text>
+<text x="175" y="1068" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="11.5" fill="#475569" font-weight="400" text-anchor="start">hvata strujne udare motora; bez njega</text>
+<text x="175" y="1084" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="11.5" fill="#475569" font-weight="400" text-anchor="start">Wi-Fi peak sruši napon i ESP32 se resetira</text>
+<rect x="1060" y="250" width="250" height="200" rx="10" fill="#f1f5f9" stroke="#334155" stroke-width="2"/>
+<path d="M1060 288 H1310" stroke="#334155" stroke-width="1.2" opacity=".45"/>
+<text x="1185" y="276" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="16" fill="#0f172a" font-weight="700" text-anchor="middle">HC-SR04P</text>
+<text x="1185" y="308" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="12.5" fill="#475569" font-weight="400" text-anchor="middle">ultrazvučni senzor, 3–5,5 V</text>
+<rect x="1055" y="330" width="10" height="10" rx="2" fill="#0e7490"/>
+<text x="1072" y="339.5" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#0f172a" font-weight="600" text-anchor="start">VCC</text>
+<rect x="1055" y="360" width="10" height="10" rx="2" fill="#047857"/>
+<text x="1072" y="369.5" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#0f172a" font-weight="600" text-anchor="start">TRIG</text>
+<rect x="1055" y="390" width="10" height="10" rx="2" fill="#047857"/>
+<text x="1072" y="399.5" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#0f172a" font-weight="600" text-anchor="start">ECHO</text>
+<rect x="1055" y="420" width="10" height="10" rx="2" fill="#111827"/>
+<text x="1072" y="429.5" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#0f172a" font-weight="600" text-anchor="start">GND</text>
+<path d="M 910 365 L 1060 365" fill="none" stroke="#047857" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 910 395 L 1060 395" fill="none" stroke="#047857" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="985" y="357" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="11.5" fill="#047857" font-weight="700" text-anchor="middle">TRIG</text>
+<text x="985" y="387" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="11.5" fill="#047857" font-weight="700" text-anchor="middle">ECHO</text>
+<text x="1185" y="482" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="11.5" fill="#15803d" font-weight="600" text-anchor="middle">ECHO ide izravno na GPIO 16 – bez djelitelja napona</text>
+<path d="M 910 505 L 986 505 A 9 9 0 0 1 1004 505 L 1030 505 L 1030 434 A 9 9 0 0 1 1030 416 L 1030 404 A 9 9 0 0 1 1030 386 L 1030 374 A 9 9 0 0 1 1030 356 L 1030 335 L 1060 335" fill="none" stroke="#0e7490" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 910 535 L 995 535 L 995 425 L 1060 425" fill="none" stroke="#111827" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="610" y="990" width="300" height="105" rx="10" fill="#f1f5f9" stroke="#334155" stroke-width="2"/>
+<path d="M610 1028 H910" stroke="#334155" stroke-width="1.2" opacity=".45"/>
+<text x="760" y="1016" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="16" fill="#0f172a" font-weight="700" text-anchor="middle">USB POWER BANK</text>
+<text x="760" y="1048" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="12.5" fill="#475569" font-weight="400" text-anchor="middle">5 V, najmanje 2 A – jedini izvor</text>
+<path d="M 760 962 L 760 990" fill="none" stroke="#dc2626" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="778" y="980" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="11.5" fill="#475569" font-weight="400" text-anchor="start">podatkovni USB kabel</text>
+<rect x="40" y="108" width="530" height="172" rx="12" fill="#fff7ed" stroke="#c2410c" stroke-width="2"/>
+<text x="60" y="136" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="15" fill="#c2410c" font-weight="700" text-anchor="start">⚠  Četiri pravila da ništa ne izgori</text>
+<text x="60" y="162" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="12.5" fill="#0f172a" font-weight="400" text-anchor="start">1.  HC-SR04P VCC ide na 3V3, nikada na 5 V. Razina na ECHO</text>
+<text x="76" y="179" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="12.5" fill="#0f172a" font-weight="400" text-anchor="start">pinu prati VCC – na 5 V bi spržio GPIO 16.</text>
+<text x="60" y="201" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="12.5" fill="#0f172a" font-weight="400" text-anchor="start">2.  Napajaj power bankom 2 A. USB računala (500 mA) je premalo.</text>
+<text x="60" y="223" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="12.5" fill="#0f172a" font-weight="400" text-anchor="start">3.  1000 µF između VIN i GND, blizu ULN2003 modula.</text>
+<text x="60" y="245" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="12.5" fill="#0f172a" font-weight="400" text-anchor="start">4.  Prije spajanja motora izmjeri VIN multimetrom: mora dati</text>
+<text x="76" y="262" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="12.5" fill="#0f172a" font-weight="400" text-anchor="start">oko 4,7 V dok je USB priključen.</text>
+<rect x="950" y="850" width="470" height="200" rx="12" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+<text x="972" y="882" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="15" fill="#0f172a" font-weight="700" text-anchor="start">Legenda i tablica pinova</text>
+<rect x="972" y="900" width="26" height="5" rx="2.5" fill="#dc2626"/>
+<text x="972" y="922" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="11" fill="#475569" font-weight="400" text-anchor="start">+5 V</text>
+<rect x="1062" y="900" width="26" height="5" rx="2.5" fill="#0e7490"/>
+<text x="1062" y="922" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="11" fill="#475569" font-weight="400" text-anchor="start">+3,3 V</text>
+<rect x="1152" y="900" width="26" height="5" rx="2.5" fill="#111827"/>
+<text x="1152" y="922" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="11" fill="#475569" font-weight="400" text-anchor="start">masa</text>
+<rect x="1242" y="900" width="26" height="5" rx="2.5" fill="#2563eb"/>
+<text x="1242" y="922" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="11" fill="#475569" font-weight="400" text-anchor="start">motori</text>
+<rect x="1332" y="900" width="26" height="5" rx="2.5" fill="#047857"/>
+<text x="1332" y="922" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="11" fill="#475569" font-weight="400" text-anchor="start">HC-SR04P</text>
+<text x="972" y="956" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="12" fill="#0f172a" font-weight="600" text-anchor="start">Lijevi ULN2003</text>
+<text x="1120" y="956" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#475569" font-weight="500" text-anchor="start">IN1→32  IN2→33  IN3→25  IN4→26</text>
+<text x="972" y="980" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="12" fill="#0f172a" font-weight="600" text-anchor="start">Desni ULN2003</text>
+<text x="1120" y="980" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#475569" font-weight="500" text-anchor="start">IN1→27  IN2→14  IN3→12  IN4→13</text>
+<text x="972" y="1004" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="12" fill="#0f172a" font-weight="600" text-anchor="start">ULN2003 (oba)</text>
+<text x="1120" y="1004" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#475569" font-weight="500" text-anchor="start">VCC→VIN    GND→GND</text>
+<text x="972" y="1028" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="12" fill="#0f172a" font-weight="600" text-anchor="start">HC-SR04P</text>
+<text x="1120" y="1028" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#475569" font-weight="500" text-anchor="start">TRIG→17  ECHO→16  VCC→3V3</text>
+<rect x="950" y="560" width="470" height="260" rx="12" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+<text x="972" y="592" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="15" fill="#0f172a" font-weight="700" text-anchor="start">Strujna bilanca – power bank, ne računalo</text>
+<text x="972" y="622" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="11.5" fill="#475569" font-weight="600" text-anchor="start">potrošač</text>
+<text x="1250" y="622" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="11.5" fill="#475569" font-weight="600" text-anchor="end">prosjek</text>
+<text x="1400" y="622" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="11.5" fill="#475569" font-weight="600" text-anchor="end">najgori slučaj</text>
+<path d="M972 630 H1400" stroke="#334155" stroke-width="1" opacity=".4"/>
+<text x="972" y="652" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="12" fill="#0f172a" font-weight="400" text-anchor="start">2× 28BYJ-48 (polukoračno)</text>
+<text x="1250" y="652" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#475569" font-weight="500" text-anchor="end">300 mA</text>
+<text x="1400" y="652" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#475569" font-weight="500" text-anchor="end">400 mA</text>
+<text x="972" y="676" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="12" fill="#0f172a" font-weight="400" text-anchor="start">ESP32 + Wi-Fi SoftAP</text>
+<text x="1250" y="676" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#475569" font-weight="500" text-anchor="end">120 mA</text>
+<text x="1400" y="676" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#475569" font-weight="500" text-anchor="end">450 mA</text>
+<text x="972" y="700" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="12" fill="#0f172a" font-weight="400" text-anchor="start">HC-SR04P</text>
+<text x="1250" y="700" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#475569" font-weight="500" text-anchor="end">5 mA</text>
+<text x="1400" y="700" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#475569" font-weight="500" text-anchor="end">15 mA</text>
+<text x="972" y="724" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="12" fill="#0f172a" font-weight="700" text-anchor="start">ukupno</text>
+<text x="1250" y="724" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#0f172a" font-weight="700" text-anchor="end">425 mA</text>
+<text x="1400" y="724" font-family="'Cascadia Mono','Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#dc2626" font-weight="700" text-anchor="end">865 mA</text>
+<path d="M972 742 H1400" stroke="#334155" stroke-width="1" opacity=".4"/>
+<text x="972" y="768" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="11.5" fill="#dc2626" font-weight="600" text-anchor="start">USB 2.0 računala daje 500 mA → premalo, autić se resetira</text>
+<text x="972" y="792" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="11.5" fill="#15803d" font-weight="600" text-anchor="start">Power bank daje 2000 mA → udobna rezerva</text>
+<rect x="210" y="1090" width="380" height="64" rx="10" fill="#fff7ed" stroke="#c2410c" stroke-width="1.8"/>
+<text x="226" y="1113" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="12" fill="#c2410c" font-weight="700" text-anchor="start">GPIO 12 je strapping pin (MTDI)</text>
+<text x="226" y="1130" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">ULN2003 ulaz ga ne može podići, pa je spoj siguran.</text>
+<text x="226" y="1146" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Ne spajaj ništa drugo na tu liniju.</text>
+<text x="1420" y="1145" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="11" fill="#475569" font-weight="400" text-anchor="end">mostić preko žice = križanje bez spoja</text>
+</svg>
